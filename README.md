@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Comic_City
 Najlepsza strona o komiksach na świecie.;
 
@@ -22,3 +23,6 @@ Dokończenie bloga;
 Dokończenie strony pojedyńczego wpisu. (Jan - fajnie by było mieć jakieś komentarze na zewnętrznym silniku);
 
 Podpięcie do Wordpressa;
+=======
+# Comic_City_Wordpress
+>>>>>>> c10ca058beff8a3900f94721db70c87f505e8463
