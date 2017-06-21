@@ -4,7 +4,7 @@
 define('THEMEROOT', get_stylesheet_directory_uri());
     define('IMAGES', THEMEROOT . '/images');
     define('STYLES', THEMEROOT . '/css');
-    define('JS', THEMEROOT . '/js');
+    define('SCRIPTS', THEMEROOT . '/js');
 //ADD STYLES
 function styles(){
         wp_enqueue_style('bootstrap', STYLES . '/bootstrap.min.css');
@@ -15,7 +15,7 @@ function styles(){
  // ADD SCRIPTS
     function script(){
         // 'NAZWA', "NAZWA", array('ZALEŻNOŚĆ'), "WERSJA", CZY W STOPCE (BOOLEAN);
-        wp_enqueue_script('custom', SCRIPTS . "/script.js", array('jquery'),'1.0', false);
+        wp_enqueue_script('custom', SCRIPTS . "/custom.js", array('jquery'),'1.0', false);
     }
     add_action('wp_enqueue_scripts', 'script');
 
