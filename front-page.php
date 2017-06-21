@@ -13,7 +13,7 @@
                 </p>
             </div>
             <div class="col-lg-4 col-sm-12 offer--item">
-                <h1>WHAT WE GOT HERE</h1>
+                <h1>WHAT WE GOT HERE LOL</h1>
                 <div class="comics">COMICS</div>
                 <div class="comics2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac nulla sed lorem.</div>
                 <div class="comics">BLOG</div>
