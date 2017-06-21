@@ -3,12 +3,23 @@
  <div class="row ourOffer">
             <div class="col-lg-4 col-sm-12 offer--item">
                 <h1>IDEA</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac nulla sed lorem tincidunt pulvinar nec et felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed sollicitudin quam. Vestibulum.
+
+                </p>
             </div>
             <div class="col-lg-4 col-sm-12 offer--item">
                 <h1>WHAT WE GOT HERE</h1>
+                <div class="comics">COMICS</div>
+                <div class="comics2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac nulla sed lorem.</div>
+                <div class="comics">BLOG</div>
+                <div class="comics2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac nulla sed lorem.</div>
+                <div class="comics">COMMUNITY</div>
+                <div class="comics2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac nulla sed lorem.Orci varius natoque penatibus et magnis dis parturient montes.</div>
             </div>
             <div class="col-lg-4 col-sm-12 offer--item">
                 <h1>COMMUNITY</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac nulla sed lorem tincidunt pulvinar nec et felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed sollicitudin quam. Vestibulum.
+                </p>
             </div>
         </div>
         <!--SKLEP START-->
@@ -23,7 +34,7 @@
                 </div>
                 <div id="cov4" class="shop--Big--Item col-lg-3">
                     <div class="coverBig">
-                        <img src="images/shop_Covers/marvelcov.jpg" alt="">
+                        <img src="<?php echo ot_get_option('pierwszy'); ?>" alt="">
 
                         <button id="btn4" class="cart">ADD TO CART</button>
                     </div>
@@ -37,7 +48,7 @@
                 </div>
                 <div id="cov1" class="col-lg-3 shop--Big--Item">
                     <div class="coverBig">
-                        <img src="images/shop_Covers/witcher.jpg" alt="">
+                        <img src="<?php echo ot_get_option('drugi'); ?>" alt="">
                         <button id="btn1" class="cart">ADD TO CART</button>
                     </div>
                     <div class="genre">COMIC BOOK</div>
@@ -50,7 +61,7 @@
                 </div>
                 <div id="cov2" class="shop--Big--Item col-lg-3">
                     <div class="coverBig">
-                        <img src="images/shop_Covers/sandman.jpg" alt="">
+                        <img src="<?php echo ot_get_option('trzeci'); ?>" alt="">
                         <button id="btn2" class="cart">ADD TO CART</button>
                     </div>
                     <div class="genre">COMIC BOOK</div>
@@ -87,7 +98,7 @@
             <a href="login.html">
                 <div class="logIn lel"></div>
             </a>
-            <img src="overlay2.png" class="overlay" alt="">
+            <img src="<?php echo ot_get_option('overlay2'); ?>" class="overlay" alt="">
         </div>
         <!--SKLEP END-->
         <!--NAGŁÓWEK OSTATNICH POSTÓW START-->

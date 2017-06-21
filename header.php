@@ -96,7 +96,7 @@
       </span>
     </button>
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="">
+                    <img src="<?php echo ot_get_option('logo'); ?>" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -115,5 +115,5 @@
             <a href="#">
                 <div class="joinIn"></div>
             </a>
-            <img src="images/overlay.png" class="overlay" alt="">
+            <img src="<?php echo ot_get_option('overlay'); ?>" class="overlay" alt="">
         </div>
