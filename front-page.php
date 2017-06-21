@@ -1,5 +1,10 @@
 <?php get_header(); ?>
-
+<div class="start col-lg-12">
+            <a href="#">
+                <div class="joinIn"></div>
+            </a>
+            <img src="<?php echo ot_get_option('overlay'); ?>" class="overlay" alt="">
+        </div>
  <div class="row ourOffer">
             <div class="col-lg-4 col-sm-12 offer--item">
                 <h1>IDEA</h1>
@@ -147,7 +152,7 @@
 
                 </div>
             </div>
-            <div class="row blog justify-content-around">
+            <div class="row blog--main justify-content-around">
                 <div id="blog--Post--four" class="col-lg-3 col-sm-6 parent">
                     <div class="child bg-eleven">
                     </div>
@@ -191,7 +196,7 @@
 
 
             </div>
-            <div class="row blog margin-bottom justify-content-around hidden-md-down">
+            <div class="row blog--main margin-bottom justify-content-around hidden-md-down">
                 <div id="blog--Post--seven" class="col-lg-4 col-sm-6 parent">
 
 
@@ -250,10 +255,10 @@
             <div class="row weTitle">
                 WE ARE
             </div>
-            <img class="absolute frame img-fluid" src="images/weare_Heroes/heroes1.png" alt="">
-            <img class="absolute daredevil img-fluid" src="images/weare_Heroes/heroes.png" alt="">
-            <img class="absolute scarletwitch img-fluid" src="images/weare_Heroes/heroes.png" alt="">
-            <img class="absolute bucky img-fluid" src="images/weare_Heroes/heroes.png" alt="">
+            <img class="absolute frame img-fluid" src="<?php echo ot_get_option('bottom'); ?>" alt="">
+            <img class="absolute daredevil img-fluid" src="<?php echo ot_get_option('dare'); ?>" alt="">
+            <img class="absolute scarletwitch img-fluid" src="<?php echo ot_get_option('dare'); ?>" alt="">
+            <img class="absolute bucky img-fluid" src="<?php echo ot_get_option('dare'); ?>" alt="">
         </div>
         <!--MEET THE TEAM END-->
 

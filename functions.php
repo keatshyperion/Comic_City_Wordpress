@@ -1,5 +1,5 @@
 <?php
-
+require_once('bs4navwalker.php');
 //Global variables
 define('THEMEROOT', get_stylesheet_directory_uri());
     define('IMAGES', THEMEROOT . '/images');
@@ -22,7 +22,7 @@ function styles(){
 //REGISTER MENU
 function menu(){
     register_nav_menus(array(
-        'main-menu' => 'Główne menu'
+        'mainMenu' => 'Główne menu'
     ));
 }
 add_action('init' , 'menu');

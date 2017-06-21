@@ -93,9 +93,9 @@
 
 <!--FOOTER END-->
 </div>
-<script type="text/javascript" src="jquery.js"></script>
-<script src="bootstrap.min.js" charset="utf-8"></script>
-<script src="script.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo SCRIPTS;?>/jquery.js"></script>
+<script src="<?php echo SCRIPTS;?>/bootstrap.min.js" charset="utf-8"></script>
+<script src="<?php echo SCRIPTS;?>/script.js" type="text/javascript"></script>
 <script src="scrollreveal.js" type="text/javascript"></script>
 
 <script>

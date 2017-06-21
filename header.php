@@ -8,9 +8,9 @@
    
     
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontello.css">
-     <link rel="stylesheet" href="css/hamburgers-master/dist/hamburgers.css">
+    <link rel="stylesheet" href="<?php echo STYLES;?>/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo STYLES;?>/fontello.css">
+     <link rel="stylesheet" href="<?php echo STYLES;?>/hamburgers-master/dist/hamburgers.css">
      <link rel="stylesheet" href="style.css">
 
     <!--FAVICON START-->
@@ -99,21 +99,7 @@
                     <img src="<?php echo ot_get_option('logo'); ?>" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="shop.html">Shop</a>
-                        <a class="nav-item nav-link" href="page.html">Blog</a>
-                        <a class="nav-item nav-link" href="aboutUs.html">About us</a>
-                        <a class="nav-item nav-link" href="login.html">Login</a>
-                        <a class="nav-item nav-link" href="register.html">Join</a>
-
-                    </div>
+                    <?php wp_nav_menu(array('theme_location' => 'mainMenu')); ?>
                 </div>
             </nav>
-        </div>
-        <div class="start col-lg-12">
-            <a href="#">
-                <div class="joinIn"></div>
-            </a>
-            <img src="<?php echo ot_get_option('overlay'); ?>" class="overlay" alt="">
         </div>
