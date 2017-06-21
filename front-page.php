@@ -99,7 +99,7 @@
 
         <!--OSTATNIE POSTY START-->
         <div class="row justify-content-center">
-            <div class="row blog justify-content-around">
+            <div class="row blog--main justify-content-around">
                 <div id="blog--Post--one" class="col-lg-3 col-sm-6 parent">
                     <div class="child bg-one">
 

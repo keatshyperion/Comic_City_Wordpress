@@ -6,11 +6,12 @@
     <meta charset="utf-8">
   
    
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontello.css">
      <link rel="stylesheet" href="css/hamburgers-master/dist/hamburgers.css">
+     <link rel="stylesheet" href="style.css">
 
     <!--FAVICON START-->
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo IMAGES;?>images/favicon/apple-icon-57x57.png">
