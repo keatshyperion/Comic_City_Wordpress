@@ -2,25 +2,22 @@
 
 //Global variables
 define('THEMEROOT', get_stylesheet_directory_uri());
-
-define('IMAGES', THEMEROOT . '/images');
-
-define('SCRIPTS', THEMEROOT . '/jss');
-define('STYLES', THEMEROOT . '/css');
+    define('IMAGES', THEMEROOT . '/images');
+    define('STYLES', THEMEROOT . '/css');
+    define('JS', THEMEROOT . '/js');
 //ADD STYLES
 function styles(){
-    wp_enqueue_style('bootstrap', STYLES . '/bootstrap.min.css');   
-    wp_enqueue_style('font-awesome', STYLES . '/font-awesome.css'); 
-    wp_enqueue_style('style', THEMEROOT . '/style.css'); }
-    add_action('wp_enqueue_scripts', 'styles'); 
-// ADD SCRIPTS
-function scripts(){
-    
-    wp_enqueue_script('custom', SCRITPS . '/custom.js', array('jquery'), '1.0', false );
-}
-
-    add_action('wp_enqueue_scripts', 'scripts');
-
+        wp_enqueue_style('bootstrap', STYLES . '/bootstrap.min.css');
+        wp_enqueue_style('style', THEMEROOT . '/style.css');
+    }
+        // WYWOŁYWANIE AKCJI
+    add_action('wp_enqueue_scripts', 'styles');
+ // ADD SCRIPTS
+    function script(){
+        // 'NAZWA', "NAZWA", array('ZALEŻNOŚĆ'), "WERSJA", CZY W STOPCE (BOOLEAN);
+        wp_enqueue_script('custom', SCRIPTS . "/script.js", array('jquery'),'1.0', false);
+    }
+    add_action('wp_enqueue_scripts', 'script');
 
 //REGISTER MENU
 function menu(){
